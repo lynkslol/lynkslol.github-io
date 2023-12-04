@@ -1,23 +1,50 @@
-<style>
-body {
-  background: rgb(255,244,0);
-  background: linear-gradient(90deg, rgba(255,244,0,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-}
-h1 {
-  color: Black;
-}
-div.A {
-  width : 100vw;
-  height : 100vh;
-  text-align: center;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(252,176,69,0) 100%);
-  top : 0%;
-  left : 0%;
-  position: fixed;
-}
-</style>
-
+<!--Hey! This is the original version
+of Simple CSS Waves-->
 <title>Lynks' very cool very awesome github page</title>
-<div class=A>
-<h1>Lynks' very cool very awesome github page</h1>
-</div>
+
+<link rel="stylesheet" href="styles.css">
+
+<div class="header">
+    
+    <div class = g>
+        
+    </div>
+
+    <!--Content before waves-->
+    <div class="inner-header flex">
+        <!--Just the logo.. Don't mind this-->
+        
+        <h1>Lynks' very cool very awesome github page</h1>
+    </div>
+    
+    <!--Waves Container-->
+    <div>
+        
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,0,0,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,0,0,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#000" />
+    </g>
+    </svg>
+    </div>
+    
+    <!--Waves end-->
+    
+    </div>
+    <!--Header ends-->
+    
+    <!--Content starts-->
+    <div class="content flex">
+        
+    </div>
+
+
+    <!--Content ends-->
+
